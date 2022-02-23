@@ -1,4 +1,4 @@
-import data from '../data/contact.json'
+import data from "../data/contact.json";
 
 function Contact() {
   return (
@@ -8,8 +8,11 @@ function Contact() {
         <p className="contactsubt">{data.contacts.desc}</p>
       </div>
       <div className="contactFormSubmit">
-        <input type="email" placeholder={data.contacts.input}></input>
-        <button className="btn2">{data.contacts.btn}</button>
+        <form name="contactForm" method="POST" data-netlify="true">
+          <input type="hidden" name="form-name" value="contactForm"/>
+          <input type="email" name="email" placeholder={data.contacts.input} />
+          <button type="submit" className="btn2">{data.contacts.btn}</button>
+        </form>
       </div>
     </div>
   );

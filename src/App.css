@@ -137,17 +137,15 @@
   color: #999;
 }
 
-.contactFormSubmit {
-  display: flex;
-  justify-content: space-between;
-}
+
 
 .contactFormSubmit input {
   width: 500px;
   height: 35px;
-  margin-left: 30px;
+  margin-left: 0 30px 0 30px;
   border: 5px solid #fb4275;
   border-radius: 40px;
+  
 }
 
 ::placeholder {
