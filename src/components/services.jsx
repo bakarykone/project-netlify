@@ -28,7 +28,7 @@ function Services() {
           <div className="services-text">{data.service3.subtitle}</div>
         </div>
         <div className="card">
-          <img src={support} className="icons" alt={"image support"} />
+          <img src={support} className="icons" alt={"support"} />
           <div className="services-titre">{data.service4.title}</div>
           <div className="services-text">{data.service4.subtitle}</div>
         </div>
