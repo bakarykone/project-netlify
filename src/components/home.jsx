@@ -20,7 +20,7 @@ function Home() {
         </div>
       </div>
       <div className="market">
-        <img src={market} alt="market image" />
+        <img src={market} alt={"market image"} />
       </div>
     </div>
   );

@@ -8,7 +8,7 @@ function Contact() {
         <p className="contactsubt">{data.contacts.desc}</p>
       </div>
       <div className="contactFormSubmit">
-        <input type="email" className="" placeholder={data.contacts.input}></input>
+        <input type="email" placeholder={data.contacts.input}></input>
         <button className="btn2">{data.contacts.btn}</button>
       </div>
     </div>

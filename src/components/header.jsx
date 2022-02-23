@@ -7,7 +7,7 @@ function Header() {
   return (
     <div>
       <div className="logo">
-        <img src={logo} alt="logo" />
+        <img src={logo} alt={"logo"} />
       </div>
       <div className="header">
         <div>
@@ -16,7 +16,7 @@ function Header() {
           <button className="btn">{data.header.button}</button>
         </div>
         <div className="bannerHead">
-          <img src={banner} alt="banner image" />
+          <img src={banner} alt={"banner image"} />
         </div>
       </div>
     </div>
