@@ -13,17 +13,17 @@ function Services() {
       </div>
       <div className="services-card">
         <div className="card">
-          <img src={seo} className="icons" alt={"image marketing"} />
+          <img src={seo} className="icons" alt={"marketing"} />
           <div className="services-titre">{data.service1.title}</div>
           <div className="services-text">{data.service1.subtitle}</div>
         </div>
         <div className="card">
-          <img src={tech} className="icons" alt={"image technologie"} />
+          <img src={tech} className="icons" alt={"technologie"} />
           <div className="services-titre">{data.service2.title}</div>
           <div className="services-text">{data.service2.subtitle}</div>
         </div>
         <div className="card">
-          <img src={cloud} className="icons" alt={"image cloud"} />
+          <img src={cloud} className="icons" alt={"cloud"} />
           <div className="services-titre">{data.service3.title}</div>
           <div className="services-text">{data.service3.subtitle}</div>
         </div>

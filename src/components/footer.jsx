@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div className="">
       <div className="logo2">
-        <img src={logo} alt={"image de logo"}/>
+        <img src={logo} alt={"logo"}/>
       </div>
       <div className="copyright">{data.footer.text}</div>
     </div>

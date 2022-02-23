@@ -16,7 +16,7 @@ function Header() {
           <button className="btn">{data.header.button}</button>
         </div>
         <div className="bannerHead">
-          <img src={banner} alt={"banner image"} />
+          <img src={banner} alt={"banner"} />
         </div>
       </div>
     </div>
