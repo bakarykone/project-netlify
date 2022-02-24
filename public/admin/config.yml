@@ -3,7 +3,7 @@ backend:
   branch: main
 
 media_folder: "src/assets/" 
-public_folder: "/assets" 
+public_folder: "assets" 
 
 collections:
   - name: "netlify" # Used in routes, e.g., /admin/collections/blog
