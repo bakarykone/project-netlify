@@ -34,11 +34,6 @@
   border: none;
 }
 
-.services {
-  padding: 250px 0 20px 0;
-  width: 70%;
-  margin: 0 auto;
-}
 
 .titre {
   font-size: 53px;
@@ -58,6 +53,11 @@
   color: #3f3f3f;
 }
 
+.services {
+  padding: 250px 0 20px 0;
+  width: 70%;
+  margin: 0 auto;
+}
 .services-card {
   display: flex;
 }
